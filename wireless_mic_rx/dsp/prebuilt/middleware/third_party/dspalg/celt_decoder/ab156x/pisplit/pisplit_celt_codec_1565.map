@@ -1,0 +1,960 @@
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+LOAD Build/source/source/main_lib.picsl.o
+LOAD Build/source/source/bands.picsl.o
+LOAD Build/source/source/celt.picsl.o
+LOAD Build/source/source/celt_encoder.picsl.o
+LOAD Build/source/source/celt_decoder.picsl.o
+LOAD Build/source/source/celt_lpc.picsl.o
+LOAD Build/source/source/clt_memory.picsl.o
+LOAD Build/source/source/cwrs.picsl.o
+LOAD Build/source/source/entcode.picsl.o
+LOAD Build/source/source/entenc.picsl.o
+LOAD Build/source/source/entdec.picsl.o
+LOAD Build/source/source/kiss_fft.picsl.o
+LOAD Build/source/source/laplace.picsl.o
+LOAD Build/source/source/mathops.picsl.o
+LOAD Build/source/source/mdct.picsl.o
+LOAD Build/source/source/modes.picsl.o
+LOAD Build/source/source/pitch.picsl.o
+LOAD Build/source/source/quant_bands.picsl.o
+LOAD Build/source/source/rate.picsl.o
+LOAD Build/source/source/vq.picsl.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/\libgcc.a
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/\libgcc.a
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+.text           0x00000000    0x10219
+                0x00000000                _text_start = ABSOLUTE (.)
+ *(.got.plt* .plt*)
+ .got.plt       0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00000000                _GLOBAL_OFFSET_TABLE_
+ .got.plt.1     0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .init.literal  0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .init.literal  0x00000004        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .literal       0x00000008       0x18 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                                 0x24 (size before relaxing)
+ .literal       0x00000020       0x40 Build/source/source/main_lib.picsl.o
+ .literal       0x00000060       0xb0 Build/source/source/bands.picsl.o
+                                0x1a0 (size before relaxing)
+ .literal       0x00000110       0x28 Build/source/source/celt.picsl.o
+                                 0x2c (size before relaxing)
+ .literal       0x00000138      0x1c8 Build/source/source/celt_encoder.picsl.o
+                                0x3f8 (size before relaxing)
+ .literal       0x00000300       0x98 Build/source/source/celt_decoder.picsl.o
+                                0x2b0 (size before relaxing)
+ .literal       0x00000398       0x14 Build/source/source/celt_lpc.picsl.o
+                                 0x3c (size before relaxing)
+ .literal       0x000003ac        0x8 Build/source/source/cwrs.picsl.o
+                                 0x24 (size before relaxing)
+ .literal       0x000003b4        0x4 Build/source/source/entcode.picsl.o
+ .literal       0x000003b8        0xc Build/source/source/entenc.picsl.o
+                                 0x38 (size before relaxing)
+ .literal       0x000003c4        0x0 Build/source/source/entdec.picsl.o
+                                 0x34 (size before relaxing)
+ .literal       0x000003c4       0x2c Build/source/source/kiss_fft.picsl.o
+                                 0x40 (size before relaxing)
+ .literal       0x000003f0        0xc Build/source/source/laplace.picsl.o
+                                 0x24 (size before relaxing)
+ .literal       0x000003fc       0x24 Build/source/source/mathops.picsl.o
+                                 0x4c (size before relaxing)
+ .literal       0x00000420        0x4 Build/source/source/mdct.picsl.o
+                                 0x24 (size before relaxing)
+ .literal       0x00000424       0x10 Build/source/source/modes.picsl.o
+                                 0x18 (size before relaxing)
+ .literal       0x00000434       0x20 Build/source/source/pitch.picsl.o
+                                 0xb0 (size before relaxing)
+ .literal       0x00000454       0x28 Build/source/source/quant_bands.picsl.o
+                                 0xe4 (size before relaxing)
+ .literal       0x0000047c       0x20 Build/source/source/rate.picsl.o
+                                 0x60 (size before relaxing)
+ .literal       0x0000049c       0x20 Build/source/source/vq.picsl.o
+                                 0xb0 (size before relaxing)
+ .literal       0x000004bc        0x8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .fini.literal  0x000004c4        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .plt           0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .plt.1         0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ *(.init.literal)
+ *(.init)
+ .init          0x000004c8        0x3 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x000004c8                _init
+ .init          0x000004cb        0x8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .init          0x000004d3        0x8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .init          0x000004db        0x2 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.literal .text .stub .literal.* .text.* .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ *fill*         0x000004dd        0x3 00000000
+ .text          0x000004e0       0x55 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *fill*         0x00000535        0x3 00000000
+ .text          0x00000538       0x5b Build/source/source/main_lib.picsl.o
+                0x00000538                _start
+ *fill*         0x00000593        0x5 00000000
+ .text          0x00000598     0x2291 Build/source/source/bands.picsl.o
+                0x00000598                hysteresis_decision
+                0x000005fc                celt_lcg_rand
+                0x0000060c                compute_band_energies
+                0x000007b0                normalise_bands
+                0x000008a0                denormalise_bands
+                0x000009f8                anti_collapse
+                0x00001028                spreading_decision
+                0x0000139c                haar1
+                0x000022a0                quant_all_bands
+ *fill*         0x00002829        0x7 00000000
+ .text          0x00002830      0x50c Build/source/source/celt.picsl.o
+                0x00002830                resampling_factor
+                0x0000286c                comb_filter
+                0x00002cc4                init_caps
+                0x00002d14                opus_strerror
+                0x00002d34                opus_get_version_string
+ *fill*         0x00002d3c        0x4 00000000
+ .text          0x00002d40     0x48f7 Build/source/source/celt_encoder.picsl.o
+                0x00002d48                celt_encoder_get_size
+                0x00002d68                opus_custom_encoder_get_size
+                0x00002d9c                opus_custom_encoder_create
+                0x00002de8                opus_custom_encoder_init
+                0x00002e94                celt_encoder_init
+                0x00002f5c                opus_custom_encoder_destroy
+                0x00002f64                puretone_assist_detect
+                0x00003af4                celt_preemphasis
+                0x00004c44                OPUS_MOVE_my
+                0x000052c4                celt_encode_with_ec
+                0x000072bc                celt_encode_prcs
+                0x000072dc                opus_custom_encoder_ctl
+                0x000075a0                celt_encode_get_size
+                0x000075bc                celt_encode_init
+ *fill*         0x00007637        0x1 00000000
+ .text          0x00007638     0x2b2b Build/source/source/celt_decoder.picsl.o
+                0x00007640                opus_custom_decoder_get_size
+                0x00007664                opus_custom_decoder_create
+                0x000076c0                celt_decoder_init
+                0x000076f8                opus_custom_decoder_init
+                0x00007768                opus_custom_decoder_destroy
+                0x00007770                deemphasis
+                0x00008770                celt_decode_with_ec
+                0x00009544                SwapMem
+                0x00009618                F_PKT_Good
+                0x000097a0                F_PKT_Loss
+                0x00009b0c                F_PKT_L_Good_R_Loss
+                0x00009c98                F_PKT_L_Loss_R_Good
+                0x00009e20                celt_decode_prcs
+                0x00009f54                opus_custom_decoder_ctl
+                0x0000a0d8                celt_decode_get_size
+                0x0000a100                celt_decode_init
+ *fill*         0x0000a163        0x5 00000000
+ .text          0x0000a168      0x52c Build/source/source/celt_lpc.picsl.o
+                0x0000a168                _celt_lpc
+                0x0000a2a4                celt_fir_c
+                0x0000a3f4                celt_iir
+                0x0000a4d0                _celt_autocorr
+ *fill*         0x0000a694        0x4 00000000
+ .text          0x0000a698      0x2d8 Build/source/source/cwrs.picsl.o
+                0x0000a698                log2_frac
+                0x0000a714                get_required_bits
+                0x0000a764                encode_pulses
+                0x0000a7f0                decode_pulses
+ .text          0x0000a970       0x34 Build/source/source/entcode.picsl.o
+                0x0000a970                ec_tell_frac
+ *fill*         0x0000a9a4        0x4 00000000
+ .text          0x0000a9a8      0x6d1 Build/source/source/entenc.picsl.o
+                0x0000aa64                ec_enc_init
+                0x0000aa8c                ec_encode
+                0x0000ab74                ec_encode_bin
+                0x0000ac64                ec_enc_bit_logp
+                0x0000ac88                ec_enc_icdf
+                0x0000acd0                ec_enc_uint
+                0x0000ad24                ec_enc_bits
+                0x0000adac                ec_enc_patch_initial_bits
+                0x0000ae4c                ec_enc_shrink
+                0x0000ae6c                ec_enc_done
+ *fill*         0x0000b079        0x7 00000000
+ .text          0x0000b080      0x390 Build/source/source/entdec.picsl.o
+                0x0000b080                ec_dec_init
+                0x0000b110                ec_decode
+                0x0000b138                ec_decode_bin
+                0x0000b16c                ec_dec_update
+                0x0000b1f0                ec_dec_bit_logp
+                0x0000b274                ec_dec_icdf
+                0x0000b304                ec_dec_uint
+                0x0000b378                ec_dec_bits
+ .text          0x0000b410      0xaaf Build/source/source/kiss_fft.picsl.o
+                0x0000bb14                opus_fft_alloc_arch_c
+                0x0000bb1c                opus_fft_alloc_twiddles
+                0x0000bc04                opus_fft_alloc
+                0x0000bc1c                opus_fft_free_arch_c
+                0x0000bc24                opus_fft_free
+                0x0000bc34                opus_fft_impl
+                0x0000bdd8                opus_fft_c
+                0x0000be34                opus_ifft_c
+ *fill*         0x0000bebf        0x1 00000000
+ .text          0x0000bec0      0x139 Build/source/source/laplace.picsl.o
+                0x0000bec0                ec_laplace_encode
+                0x0000bf68                ec_laplace_decode
+ *fill*         0x0000bff9        0x7 00000000
+ .text          0x0000c000      0x32b Build/source/source/mathops.picsl.o
+                0x0000c000                isqrt32
+                0x0000c03c                frac_div32
+                0x0000c0e8                celt_rsqrt_norm
+                0x0000c144                celt_sqrt
+                0x0000c1dc                celt_cos_norm
+                0x0000c29c                celt_rcp
+ *fill*         0x0000c32b        0x5 00000000
+ .text          0x0000c330      0x739 Build/source/source/mdct.picsl.o
+                0x0000c330                clt_mdct_init
+                0x0000c388                clt_mdct_clear
+                0x0000c3ac                MULT16_32_Q15X
+                0x0000c3c4                clt_mdct_forward_c
+                0x0000c818                clt_mdct_backward_c
+ *fill*         0x0000ca69        0x7 00000000
+ .text          0x0000ca70       0x9d Build/source/source/modes.picsl.o
+                0x0000ca70                get_celt_version
+                0x0000ca78                get_mode16000_120f30b_80f40b
+                0x0000ca98                opus_custom_mode_create
+                0x0000caec                opus_custom_mode_destroy
+ *fill*         0x0000cb0d        0x3 00000000
+ .text          0x0000cb10      0xdab Build/source/source/pitch.picsl.o
+                0x0000cb10                find_best_pitch
+                0x0000cc34                celt_fir5
+                0x0000cd28                celt_maxabs32_xt
+                0x0000cd4c                pitch_downsample
+                0x0000cf9c                celt_pitch_xcorr
+                0x0000d070                celt_maxabs16_xt
+                0x0000d094                pitch_search
+                0x0000d2ac                remove_doubling
+ *fill*         0x0000d8bb        0x5 00000000
+ .text          0x0000d8c0      0xb80 Build/source/source/quant_bands.picsl.o
+                0x0000db5c                quant_coarse_energy
+                0x0000df68                quant_fine_energy
+                0x0000e010                quant_energy_finalise
+                0x0000e0ec                unquant_coarse_energy
+                0x0000e248                unquant_fine_energy
+                0x0000e29c                unquant_energy_finalise
+                0x0000e344                amp2Log2
+ .text          0x0000e440      0xfd1 Build/source/source/rate.picsl.o
+                0x0000e440                compute_allocation
+                0x0000efc4                puretone_detect
+                0x0000f2dc                get_ToneBand_Data
+ *fill*         0x0000f411        0x7 00000000
+ .text          0x0000f418      0xcd9 Build/source/source/vq.picsl.o
+                0x0000f76c                alg_quant
+                0x0000fb70                alg_unquant
+                0x0000fdfc                renormalise_vector
+                0x0000fec0                stereo_itheta
+ *fill*         0x000100f1        0x7 00000000
+ .text          0x000100f8       0x1e C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .text          0x00010116        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x0 00000000
+ *fill*         0x00010116        0x2 00000000
+ .text          0x00010118       0xf4 Build/source/source/clt_memory.picsl.o
+                0x00010118                memset
+                0x00010158                memcpy
+                0x000101e8                CELT_memcpy
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ *fill*         0x0001020c        0x0 00000000
+ .text          0x0001020c        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.fini.literal)
+ *fill*         0x0001020c        0x0 00000000
+ *(.fini)
+ .fini          0x0001020c        0x3 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x0001020c                _fini
+ .fini          0x0001020f        0x8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .fini          0x00010217        0x2 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+                0x00010219                PROVIDE (__etext, .)
+                0x00010219                PROVIDE (_etext, .)
+                0x00010219                PROVIDE (etext, .)
+
+.dynamic        0x0001021c       0xa8
+                0x0001021c        0x4 LONG 0x70000002
+                0x00010220        0x4 LONG 0x0 _text_start
+ *(.dynamic)
+ .dynamic       0x00010224       0xa0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00010224                _DYNAMIC
+
+.hash           0x000102c4       0x28
+ *(.hash)
+ .hash          0x000102c4       0x28 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.dynsym         0x000102ec       0x50
+ *(.dynsym)
+ .dynsym        0x000102ec       0x50 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.dynstr         0x0001033c       0x25
+ *(.dynstr)
+ .dynstr        0x0001033c       0x25 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version    0x00010362        0x0
+ *(.gnu.version)
+ .gnu.version   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version_d  0x00010364        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version_r  0x00010364        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro*)
+
+.rela.data.rel.ro
+ *(.rel.data.rel.ro*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.tdata
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+
+.rela.tdata
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+
+.rel.tbss
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+
+.rela.tbss
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got       0x00010364      0xb88
+ *(.rela.got)
+ .rela.got      0x00010364      0xb88 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt       0x00010eec        0x0
+ *(.rela.plt)
+ .rela.plt      0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.got            0x00010eec        0x4
+ *(.got)
+ .got           0x00010eec        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.got.loc        0x00010ef0       0xb8
+ *(.got.loc)
+ .got.loc       0x00010ef0       0xb8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rodata         0x00010fb0     0x4b48
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.4
+                0x00010fb0       0xaf Build/source/source/main_lib.picsl.o
+ *fill*         0x0001105f        0x1 
+ .rodata        0x00011060       0x8c Build/source/source/bands.picsl.o
+ *fill*         0x000110ec        0x4 
+ .rodata        0x000110f0       0x12 Build/source/source/celt.picsl.o
+ *fill*         0x00011102        0x2 
+ .rodata.str1.4
+                0x00011104       0xc0 Build/source/source/celt.picsl.o
+                                 0xbe (size before relaxing)
+ *fill*         0x000111c4        0xc 
+ .rodata        0x000111d0      0x10a Build/source/source/celt_encoder.picsl.o
+ *fill*         0x000112da        0x6 
+ .rodata        0x000112e0       0x10 Build/source/source/celt_decoder.picsl.o
+ .rodata        0x000112f0     0x1740 Build/source/source/cwrs.picsl.o
+ .rodata        0x00012a30        0xa Build/source/source/mathops.picsl.o
+ *fill*         0x00012a3a        0x6 
+ .rodata        0x00012a40     0x2c25 Build/source/source/modes.picsl.o
+                0x00012a40                eband5ms_ull
+                0x00013780                tone_eband5ms_mono_16K
+                0x000141c0                tone_eband5ms_mono_48K
+                0x00014c00                tone_eband5ms_stereo_48K
+                0x00015640                preemph_16K
+                0x00015650                tone_band_alloc
+ *fill*         0x00015665        0xb 
+ .rodata        0x00015670       0x48 Build/source/source/pitch.picsl.o
+ *fill*         0x000156b8        0x8 
+ .rodata        0x000156c0      0x1b0 Build/source/source/quant_bands.picsl.o
+                0x00015830                eMeans_celt
+ .rodata        0x00015870      0x288 Build/source/source/rate.picsl.o
+                0x00015890                T_deemp_gain
+                0x00015980                nse_floor_Tab
+
+.interp         0x00015af8        0xb
+ .interp        0x00015af8        0xb C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rodata1
+ *(.rodata1)
+
+.xt_except_table
+ *(.xt_except_table)
+
+.eh_frame       0x00015b04        0x4
+ *(.eh_frame)
+ .eh_frame      0x00015b04        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .eh_frame      0x00015b04        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+                0x00015b08                . = ALIGN (0x4)
+                0x00015b08                PROVIDE (__preinit_array_start, .)
+
+.preinit_array
+ *(.preinit_array)
+                0x00015b08                PROVIDE (__preinit_array_end, .)
+                0x00015b08                PROVIDE (__init_array_start, .)
+
+.init_array
+ *(.init_array)
+                0x00015b08                PROVIDE (__init_array_end, .)
+                0x00015b08                PROVIDE (__fini_array_start, .)
+
+.fini_array
+ *(.fini_array)
+                0x00015b08                PROVIDE (__fini_array_end, .)
+
+.ctors          0x00015b08        0x8
+ *crtbegin*.o(.ctors)
+ .ctors         0x00015b08        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ .ctors         0x00015b0c        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.dtors          0x00015b10        0x8
+ *crtbegin*.o(.dtors)
+ .dtors         0x00015b10        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ .dtors         0x00015b14        0x4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local)
+ *(.data.rel.ro*)
+
+.data           0x00015b20      0xaac
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00015b20        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .data          0x00015b20        0x8 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                0x00015b20                __dso_handle
+ *fill*         0x00015b28        0x8 
+ .data          0x00015b30       0x20 Build/source/source/main_lib.picsl.o
+                0x00015b30                export_parameter_array
+ .data          0x00015b50       0x30 Build/source/source/bands.picsl.o
+ .data          0x00015b80       0x40 Build/source/source/celt.picsl.o
+                0x00015b80                tf_select_table_celt
+ .data          0x00015bc0       0x1b Build/source/source/celt_encoder.picsl.o
+ *fill*         0x00015bdb        0x5 
+ .data          0x00015be0       0x1b Build/source/source/celt_decoder.picsl.o
+ .data          0x00015bfb        0x0 Build/source/source/celt_lpc.picsl.o
+ .data          0x00015bfb        0x0 Build/source/source/clt_memory.picsl.o
+ *fill*         0x00015bfb        0x5 
+ .data          0x00015c00       0x3c Build/source/source/cwrs.picsl.o
+ *fill*         0x00015c3c        0x4 
+ .data          0x00015c40       0x20 Build/source/source/entcode.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/entenc.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/entdec.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/kiss_fft.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/laplace.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/mathops.picsl.o
+ .data          0x00015c60        0x0 Build/source/source/mdct.picsl.o
+ .data          0x00015c60      0x95c Build/source/source/modes.picsl.o
+ .data          0x000165bc        0x0 Build/source/source/pitch.picsl.o
+ .data          0x000165bc        0x0 Build/source/source/quant_bands.picsl.o
+ .data          0x000165bc        0x0 Build/source/source/rate.picsl.o
+ *fill*         0x000165bc        0x4 
+ .data          0x000165c0        0xc Build/source/source/vq.picsl.o
+ .data          0x000165cc        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .data          0x000165cc        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.gnu.linkonce.d.*personality*)
+
+.data1
+ *(.data1)
+
+.xt_except_desc
+ *(.xt_except_desc .gnu.linkonce.h.*)
+ *(.xt_except_desc_end)
+                0x000165cc                _edata = .
+                0x000165cc                PROVIDE (edata, .)
+                0x000165cc                __bss_start = .
+
+.bss            0x000165cc       0x28
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x000165cc        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .bss           0x000165cc       0x1c C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .bss           0x000165e8        0x4 Build/source/source/main_lib.picsl.o
+                0x000165e8                printf_ptr
+ .bss           0x000165ec        0x0 Build/source/source/bands.picsl.o
+ .bss           0x000165ec        0x8 Build/source/source/celt.picsl.o
+                0x000165ec                scratch_ptr
+                0x000165f0                global_stack
+ .bss           0x000165f4        0x0 Build/source/source/celt_encoder.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/celt_decoder.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/celt_lpc.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/clt_memory.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/cwrs.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/entcode.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/entenc.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/entdec.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/kiss_fft.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/laplace.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/mathops.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/mdct.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/modes.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/pitch.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/quant_bands.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/rate.picsl.o
+ .bss           0x000165f4        0x0 Build/source/source/vq.picsl.o
+ .bss           0x000165f4        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .bss           0x000165f4        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(COMMON)
+                0x000165f4                . = ALIGN (0x4)
+                0x000165f4                . = ALIGN (0x4)
+                0x000165f4                _end = .
+                0x000165f4                PROVIDE (end, .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000      0x786
+ *(.comment)
+ .comment       0x00000000       0x97 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                                 0x98 (size before relaxing)
+ .comment       0x00000097       0x5a Build/source/source/main_lib.picsl.o
+                                 0x5b (size before relaxing)
+ .comment       0x000000f1       0x57 Build/source/source/bands.picsl.o
+                                 0x58 (size before relaxing)
+ .comment       0x00000148       0x56 Build/source/source/celt.picsl.o
+                                 0x57 (size before relaxing)
+ .comment       0x0000019e       0x5e Build/source/source/celt_encoder.picsl.o
+                                 0x5f (size before relaxing)
+ .comment       0x000001fc       0x5e Build/source/source/celt_decoder.picsl.o
+                                 0x5f (size before relaxing)
+ .comment       0x0000025a       0x5a Build/source/source/celt_lpc.picsl.o
+                                 0x5b (size before relaxing)
+ .comment       0x000002b4       0x5c Build/source/source/clt_memory.picsl.o
+                                 0x5d (size before relaxing)
+ .comment       0x00000310       0x56 Build/source/source/cwrs.picsl.o
+                                 0x57 (size before relaxing)
+ .comment       0x00000366       0x59 Build/source/source/entcode.picsl.o
+                                 0x5a (size before relaxing)
+ .comment       0x000003bf       0x58 Build/source/source/entenc.picsl.o
+                                 0x59 (size before relaxing)
+ .comment       0x00000417       0x58 Build/source/source/entdec.picsl.o
+                                 0x59 (size before relaxing)
+ .comment       0x0000046f       0x5a Build/source/source/kiss_fft.picsl.o
+                                 0x5b (size before relaxing)
+ .comment       0x000004c9       0x59 Build/source/source/laplace.picsl.o
+                                 0x5a (size before relaxing)
+ .comment       0x00000522       0x59 Build/source/source/mathops.picsl.o
+                                 0x5a (size before relaxing)
+ .comment       0x0000057b       0x56 Build/source/source/mdct.picsl.o
+                                 0x57 (size before relaxing)
+ .comment       0x000005d1       0x57 Build/source/source/modes.picsl.o
+                                 0x58 (size before relaxing)
+ .comment       0x00000628       0x57 Build/source/source/pitch.picsl.o
+                                 0x58 (size before relaxing)
+ .comment       0x0000067f       0x5d Build/source/source/quant_bands.picsl.o
+                                 0x5e (size before relaxing)
+ .comment       0x000006dc       0x56 Build/source/source/rate.picsl.o
+                                 0x57 (size before relaxing)
+ .comment       0x00000732       0x54 Build/source/source/vq.picsl.o
+                                 0x55 (size before relaxing)
+ .comment       0x00000000       0x98 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.xtensa.info    0x00000000      0x1e4
+ .xtensa.info   0x00000000      0x1e4 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/main_lib.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/bands.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/celt.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/celt_encoder.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/celt_decoder.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/celt_lpc.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/clt_memory.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/cwrs.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/entcode.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/entenc.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/entdec.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/kiss_fft.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/laplace.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/mathops.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/mdct.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/modes.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/pitch.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/quant_bands.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/rate.picsl.o
+ .xtensa.info   0x00000000        0x0 Build/source/source/vq.picsl.o
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .xtensa.info   0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000      0x280
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 Build/source/source/main_lib.picsl.o
+ .debug_aranges
+                0x00000020       0x20 Build/source/source/bands.picsl.o
+ .debug_aranges
+                0x00000040       0x20 Build/source/source/celt.picsl.o
+ .debug_aranges
+                0x00000060       0x20 Build/source/source/celt_encoder.picsl.o
+ .debug_aranges
+                0x00000080       0x20 Build/source/source/celt_decoder.picsl.o
+ .debug_aranges
+                0x000000a0       0x20 Build/source/source/celt_lpc.picsl.o
+ .debug_aranges
+                0x000000c0       0x20 Build/source/source/clt_memory.picsl.o
+ .debug_aranges
+                0x000000e0       0x20 Build/source/source/cwrs.picsl.o
+ .debug_aranges
+                0x00000100       0x20 Build/source/source/entcode.picsl.o
+ .debug_aranges
+                0x00000120       0x20 Build/source/source/entenc.picsl.o
+ .debug_aranges
+                0x00000140       0x20 Build/source/source/entdec.picsl.o
+ .debug_aranges
+                0x00000160       0x20 Build/source/source/kiss_fft.picsl.o
+ .debug_aranges
+                0x00000180       0x20 Build/source/source/laplace.picsl.o
+ .debug_aranges
+                0x000001a0       0x20 Build/source/source/mathops.picsl.o
+ .debug_aranges
+                0x000001c0       0x20 Build/source/source/mdct.picsl.o
+ .debug_aranges
+                0x000001e0       0x20 Build/source/source/modes.picsl.o
+ .debug_aranges
+                0x00000200       0x20 Build/source/source/pitch.picsl.o
+ .debug_aranges
+                0x00000220       0x20 Build/source/source/quant_bands.picsl.o
+ .debug_aranges
+                0x00000240       0x20 Build/source/source/rate.picsl.o
+ .debug_aranges
+                0x00000260       0x20 Build/source/source/vq.picsl.o
+
+.debug_pubnames
+                0x00000000      0xc40
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000       0x47 Build/source/source/main_lib.picsl.o
+ .debug_pubnames
+                0x00000047       0xc7 Build/source/source/bands.picsl.o
+ .debug_pubnames
+                0x0000010e       0xae Build/source/source/celt.picsl.o
+ .debug_pubnames
+                0x000001bc      0x177 Build/source/source/celt_encoder.picsl.o
+ .debug_pubnames
+                0x00000333      0x185 Build/source/source/celt_decoder.picsl.o
+ .debug_pubnames
+                0x000004b8       0x4f Build/source/source/celt_lpc.picsl.o
+ .debug_pubnames
+                0x00000507       0x38 Build/source/source/clt_memory.picsl.o
+ .debug_pubnames
+                0x0000053f       0x5a Build/source/source/cwrs.picsl.o
+ .debug_pubnames
+                0x00000599       0x23 Build/source/source/entcode.picsl.o
+ .debug_pubnames
+                0x000005bc       0xc6 Build/source/source/entenc.picsl.o
+ .debug_pubnames
+                0x00000682       0x98 Build/source/source/entdec.picsl.o
+ .debug_pubnames
+                0x0000071a       0xb7 Build/source/source/kiss_fft.picsl.o
+ .debug_pubnames
+                0x000007d1       0x3e Build/source/source/laplace.picsl.o
+ .debug_pubnames
+                0x0000080f       0x6e Build/source/source/mathops.picsl.o
+ .debug_pubnames
+                0x0000087d       0x79 Build/source/source/mdct.picsl.o
+ .debug_pubnames
+                0x000008f6      0x109 Build/source/source/modes.picsl.o
+ .debug_pubnames
+                0x000009ff       0xad Build/source/source/pitch.picsl.o
+ .debug_pubnames
+                0x00000aac       0xc5 Build/source/source/quant_bands.picsl.o
+ .debug_pubnames
+                0x00000b71       0x76 Build/source/source/rate.picsl.o
+ .debug_pubnames
+                0x00000be7       0x59 Build/source/source/vq.picsl.o
+
+.debug_info     0x00000000    0x12e78
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x18e Build/source/source/main_lib.picsl.o
+ .debug_info    0x0000018e     0x2487 Build/source/source/bands.picsl.o
+ .debug_info    0x00002615      0xe87 Build/source/source/celt.picsl.o
+ .debug_info    0x0000349c     0x3381 Build/source/source/celt_encoder.picsl.o
+ .debug_info    0x0000681d     0x2856 Build/source/source/celt_decoder.picsl.o
+ .debug_info    0x00009073      0xa4c Build/source/source/celt_lpc.picsl.o
+ .debug_info    0x00009abf      0x272 Build/source/source/clt_memory.picsl.o
+ .debug_info    0x00009d31      0x538 Build/source/source/cwrs.picsl.o
+ .debug_info    0x0000a269      0x2cc Build/source/source/entcode.picsl.o
+ .debug_info    0x0000a535      0x70a Build/source/source/entenc.picsl.o
+ .debug_info    0x0000ac3f      0x5e9 Build/source/source/entdec.picsl.o
+ .debug_info    0x0000b228      0xe91 Build/source/source/kiss_fft.picsl.o
+ .debug_info    0x0000c0b9      0x43b Build/source/source/laplace.picsl.o
+ .debug_info    0x0000c4f4      0x4f4 Build/source/source/mathops.picsl.o
+ .debug_info    0x0000c9e8      0xcfe Build/source/source/mdct.picsl.o
+ .debug_info    0x0000d6e6     0x1233 Build/source/source/modes.picsl.o
+ .debug_info    0x0000e919     0x105d Build/source/source/pitch.picsl.o
+ .debug_info    0x0000f976     0x140a Build/source/source/quant_bands.picsl.o
+ .debug_info    0x00010d80     0x10a6 Build/source/source/rate.picsl.o
+ .debug_info    0x00011e26     0x1052 Build/source/source/vq.picsl.o
+
+.debug_abbrev   0x00000000     0x1e2d
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xa3 Build/source/source/main_lib.picsl.o
+ .debug_abbrev  0x000000a3      0x26c Build/source/source/bands.picsl.o
+ .debug_abbrev  0x0000030f      0x1c2 Build/source/source/celt.picsl.o
+ .debug_abbrev  0x000004d1      0x2b9 Build/source/source/celt_encoder.picsl.o
+ .debug_abbrev  0x0000078a      0x29d Build/source/source/celt_decoder.picsl.o
+ .debug_abbrev  0x00000a27      0x13f Build/source/source/celt_lpc.picsl.o
+ .debug_abbrev  0x00000b66       0xaf Build/source/source/clt_memory.picsl.o
+ .debug_abbrev  0x00000c15      0x186 Build/source/source/cwrs.picsl.o
+ .debug_abbrev  0x00000d9b       0xbc Build/source/source/entcode.picsl.o
+ .debug_abbrev  0x00000e57      0x115 Build/source/source/entenc.picsl.o
+ .debug_abbrev  0x00000f6c      0x118 Build/source/source/entdec.picsl.o
+ .debug_abbrev  0x00001084      0x214 Build/source/source/kiss_fft.picsl.o
+ .debug_abbrev  0x00001298       0xe9 Build/source/source/laplace.picsl.o
+ .debug_abbrev  0x00001381      0x11b Build/source/source/mathops.picsl.o
+ .debug_abbrev  0x0000149c      0x170 Build/source/source/mdct.picsl.o
+ .debug_abbrev  0x0000160c      0x1a8 Build/source/source/modes.picsl.o
+ .debug_abbrev  0x000017b4      0x1a1 Build/source/source/pitch.picsl.o
+ .debug_abbrev  0x00001955      0x1be Build/source/source/quant_bands.picsl.o
+ .debug_abbrev  0x00001b13      0x179 Build/source/source/rate.picsl.o
+ .debug_abbrev  0x00001c8c      0x1a1 Build/source/source/vq.picsl.o
+
+.debug_line     0x00000000     0xe1cf
+ *(.debug_line)
+ .debug_line    0x00000000       0xa2 Build/source/source/main_lib.picsl.o
+ .debug_line    0x000000a2     0x1dc7 Build/source/source/bands.picsl.o
+ .debug_line    0x00001e69      0x5db Build/source/source/celt.picsl.o
+ .debug_line    0x00002444     0x3730 Build/source/source/celt_encoder.picsl.o
+ .debug_line    0x00005b74     0x21c8 Build/source/source/celt_decoder.picsl.o
+ .debug_line    0x00007d3c      0x677 Build/source/source/celt_lpc.picsl.o
+ .debug_line    0x000083b3      0x110 Build/source/source/clt_memory.picsl.o
+ .debug_line    0x000084c3      0x323 Build/source/source/cwrs.picsl.o
+ .debug_line    0x000087e6       0xc1 Build/source/source/entcode.picsl.o
+ .debug_line    0x000088a7      0x7a8 Build/source/source/entenc.picsl.o
+ .debug_line    0x0000904f      0x472 Build/source/source/entdec.picsl.o
+ .debug_line    0x000094c1      0xda8 Build/source/source/kiss_fft.picsl.o
+ .debug_line    0x0000a269      0x1df Build/source/source/laplace.picsl.o
+ .debug_line    0x0000a448      0x2ab Build/source/source/mathops.picsl.o
+ .debug_line    0x0000a6f3      0x975 Build/source/source/mdct.picsl.o
+ .debug_line    0x0000b068      0x23f Build/source/source/modes.picsl.o
+ .debug_line    0x0000b2a7      0xcf0 Build/source/source/pitch.picsl.o
+ .debug_line    0x0000bf97      0x938 Build/source/source/quant_bands.picsl.o
+ .debug_line    0x0000c8cf      0xbf4 Build/source/source/rate.picsl.o
+ .debug_line    0x0000d4c3      0xd0c Build/source/source/vq.picsl.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.xt.lit         0x00000000       0xb8
+ *(.xt.lit .xt.lit.* .gnu.linkonce.p.*)
+ .xt.lit.plt    0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xt.lit        0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .xt.lit        0x00000018        0x8 Build/source/source/main_lib.picsl.o
+ .xt.lit        0x00000020        0x8 Build/source/source/bands.picsl.o
+ .xt.lit        0x00000028        0x8 Build/source/source/celt.picsl.o
+ .xt.lit        0x00000030        0x8 Build/source/source/celt_encoder.picsl.o
+ .xt.lit        0x00000038        0x8 Build/source/source/celt_decoder.picsl.o
+ .xt.lit        0x00000040        0x8 Build/source/source/celt_lpc.picsl.o
+ .xt.lit        0x00000048        0x8 Build/source/source/cwrs.picsl.o
+ .xt.lit        0x00000050        0x8 Build/source/source/entcode.picsl.o
+ .xt.lit        0x00000058        0x8 Build/source/source/entenc.picsl.o
+ .xt.lit        0x00000060        0x0 Build/source/source/entdec.picsl.o
+                                  0x8 (size before relaxing)
+ .xt.lit        0x00000060        0x8 Build/source/source/kiss_fft.picsl.o
+ .xt.lit        0x00000068        0x8 Build/source/source/laplace.picsl.o
+ .xt.lit        0x00000070        0x8 Build/source/source/mathops.picsl.o
+ .xt.lit        0x00000078        0x8 Build/source/source/mdct.picsl.o
+ .xt.lit        0x00000080        0x8 Build/source/source/modes.picsl.o
+ .xt.lit        0x00000088        0x8 Build/source/source/pitch.picsl.o
+ .xt.lit        0x00000090        0x8 Build/source/source/quant_bands.picsl.o
+ .xt.lit        0x00000098        0x8 Build/source/source/rate.picsl.o
+ .xt.lit        0x000000a0        0x8 Build/source/source/vq.picsl.o
+ .xt.lit        0x000000a8       0x10 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.xt.insn
+ *(.xt.insn .gnu.linkonce.x.*)
+
+.xt.prop        0x00000000     0x858c
+ *(.xt.prop .gnu.linkonce.prop.*)
+ .xt.prop       0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xt.prop       0x00000018       0xc0 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                                 0xf0 (size before relaxing)
+ .xt.prop       0x000000d8       0x24 Build/source/source/main_lib.picsl.o
+                                 0x3c (size before relaxing)
+ .xt.prop       0x000000fc     0x1344 Build/source/source/bands.picsl.o
+                               0x1350 (size before relaxing)
+ .xt.prop       0x00001440      0x30c Build/source/source/celt.picsl.o
+                                0x330 (size before relaxing)
+ .xt.prop       0x0000174c     0x21b4 Build/source/source/celt_encoder.picsl.o
+                               0x21c0 (size before relaxing)
+ .xt.prop       0x00003900     0x1110 Build/source/source/celt_decoder.picsl.o
+                               0x111c (size before relaxing)
+ .xt.prop       0x00004a10      0x348 Build/source/source/celt_lpc.picsl.o
+ .xt.prop       0x00004d58       0xcc Build/source/source/clt_memory.picsl.o
+ .xt.prop       0x00004e24      0x1ec Build/source/source/cwrs.picsl.o
+                                0x204 (size before relaxing)
+ .xt.prop       0x00005010       0x24 Build/source/source/entcode.picsl.o
+                                 0x30 (size before relaxing)
+ .xt.prop       0x00005034      0x6b4 Build/source/source/entenc.picsl.o
+ .xt.prop       0x000056e8      0x300 Build/source/source/entdec.picsl.o
+                                0x30c (size before relaxing)
+ .xt.prop       0x000059e8      0x5ac Build/source/source/kiss_fft.picsl.o
+ .xt.prop       0x00005f94      0x138 Build/source/source/laplace.picsl.o
+ .xt.prop       0x000060cc      0x228 Build/source/source/mathops.picsl.o
+                                0x234 (size before relaxing)
+ .xt.prop       0x000062f4      0x354 Build/source/source/mdct.picsl.o
+ .xt.prop       0x00006648      0x420 Build/source/source/modes.picsl.o
+                                0x48c (size before relaxing)
+ .xt.prop       0x00006a68      0x6c0 Build/source/source/pitch.picsl.o
+ .xt.prop       0x00007128      0x5dc Build/source/source/quant_bands.picsl.o
+                                0x5e8 (size before relaxing)
+ .xt.prop       0x00007704      0x900 Build/source/source/rate.picsl.o
+                                0x90c (size before relaxing)
+ .xt.prop       0x00008004      0x504 Build/source/source/vq.picsl.o
+                                0x510 (size before relaxing)
+ .xt.prop       0x00008508       0x54 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+                                 0x6c (size before relaxing)
+ .xt.prop       0x0000855c       0x30 C:/usr/xtensa/XtDevTools/install/builds/RG-2019.12-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(Build/lib/pisplit_celt_codec_1565_position_independent.splitload.lib elf32-xtensa-le)

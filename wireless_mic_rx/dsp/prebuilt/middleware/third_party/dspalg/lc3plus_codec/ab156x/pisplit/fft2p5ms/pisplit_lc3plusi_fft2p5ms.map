@@ -1,0 +1,727 @@
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/piclib_fft2p5ms.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/lc3_scratch_allocator.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/IRAM_fft_com.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/IRAM_fft_fft4.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/IRAM_fft_fft15.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 Build/source/IRAM_fft_fft20.picsl.o
+ .note.GNU-stack
+                0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+Linker script and memory map
+
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+LOAD Build/source/piclib_fft2p5ms.picsl.o
+LOAD Build/source/lc3_scratch_allocator.picsl.o
+LOAD Build/source/IRAM_fft_com.picsl.o
+LOAD Build/source/IRAM_fft_fft4.picsl.o
+LOAD Build/source/IRAM_fft_fft15.picsl.o
+LOAD Build/source/IRAM_fft_fft20.picsl.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/\libgcc.a
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/\libgcc.a
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+LOAD C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+.text           0x00000000     0x1dc1
+                0x00000000                _text_start = ABSOLUTE (.)
+ *(.got.plt* .plt*)
+ .got.plt       0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00000000                _GLOBAL_OFFSET_TABLE_
+ .init.literal  0x00000000        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .init.literal  0x00000004        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .literal       0x00000008       0x14 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                                         0x20 (size before relaxing)
+ .literal       0x0000001c       0x38 Build/source/piclib_fft2p5ms.picsl.o
+ .literal       0x00000054       0x34 Build/source/IRAM_fft_com.picsl.o
+                                         0x4c (size before relaxing)
+ .literal       0x00000088        0x4 Build/source/IRAM_fft_fft4.picsl.o
+ .literal       0x0000008c        0x4 Build/source/IRAM_fft_fft15.picsl.o
+ .literal       0x00000090        0x0 Build/source/IRAM_fft_fft20.picsl.o
+                                          0x4 (size before relaxing)
+ .literal       0x00000090        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .fini.literal  0x00000094        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .plt           0x00000098        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ *(.init.literal)
+ *(.init)
+ .init          0x00000098        0x3 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00000098                _init
+ .init          0x0000009b        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .init          0x000000a3        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .init          0x000000ab        0x2 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.literal .text .stub .literal.* .text.* .gnu.linkonce.literal.* .gnu.linkonce.t.*.literal .gnu.linkonce.t.*)
+ *fill*         0x000000ad        0x3 00000000
+ .text          0x000000b0       0x4a C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *fill*         0x000000fa        0x2 00000000
+ .text          0x000000fc       0x4f Build/source/piclib_fft2p5ms.picsl.o
+                0x000000fc                _start
+ *fill*         0x0000014b        0x5 00000000
+ .text          0x00000150     0x11f3 Build/source/IRAM_fft_com.picsl.o
+                0x00000150                fix_fft_Init
+                0x00000164                fix_fft5_stage
+                0x000002ac                fix_fft15_stage
+                0x000005f4                fix_fft40
+                0x00000c64                FFT8N
+ *fill*         0x00001343        0x5 00000000
+ .text          0x00001348      0x2a8 Build/source/IRAM_fft_fft4.picsl.o
+                0x00001348                FFT4N
+ .text          0x000015f0      0x20c Build/source/IRAM_fft_fft15.picsl.o
+                0x000015f0                fix_fft15
+ .text          0x000017fc      0x4cf Build/source/IRAM_fft_fft20.picsl.o
+                0x000017fc                fix_fft20
+ *fill*         0x00001ccb        0x1 00000000
+ .text          0x00001ccc       0x1e C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .text          0x00001cea        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ *fill*         0x00001cea        0x0 00000000
+ *fill*         0x00001cea        0x0 00000000
+ *fill*         0x00001cea        0x2 00000000
+ .text          0x00001cec       0xc6 Build/source/lc3_scratch_allocator.picsl.o
+                0x00001cec                LC3Plus_lc3_scratch_init
+                0x00001d48                LC3Plus_lc3_scratch_push
+                0x00001d88                LC3Plus_lc3_scratch_pop
+ *fill*         0x00001db2        0x0 00000000
+ *fill*         0x00001db2        0x0 00000000
+ *fill*         0x00001db2        0x0 00000000
+ .text          0x00001db2        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.clib.literal .clib.text)
+ *(.text.*personality*)
+ *(.gnu.warning)
+ *(.fini.literal)
+ *fill*         0x00001db2        0x0 00000000
+ *(.fini)
+ *fill*         0x00001db2        0x2 00000000
+ .fini          0x00001db4        0x3 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00001db4                _fini
+ .fini          0x00001db7        0x8 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .fini          0x00001dbf        0x2 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+
+.dynamic        0x00001dc4       0xa8
+                0x00001dc4        0x4 LONG 0x70000002
+                0x00001dc8        0x4 LONG 0x0 _text_start
+ *(.dynamic)
+ .dynamic       0x00001dcc       0xa0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+                0x00001dcc                _DYNAMIC
+
+.hash           0x00001e6c       0x10
+ *(.hash)
+ .hash          0x00001e6c       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.dynsym         0x00001e7c       0x10
+ *(.dynsym)
+ .dynsym        0x00001e7c       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.dynstr         0x00001e8c        0x1
+ *(.dynstr)
+ .dynstr        0x00001e8c        0x1 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version    0x00001e8e        0x0
+ *(.gnu.version)
+ .gnu.version   0x00001e8e        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version_d  0x00001e90        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00001e90        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.gnu.version_r  0x00001e90        0x0
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00001e90        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+
+.rela.text
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+
+.rela.rodata
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+
+.rel.data.rel.ro
+ *(.rel.data.rel.ro*)
+
+.rela.data.rel.ro
+ *(.rel.data.rel.ro*)
+
+.rel.data
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+
+.rela.data
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+
+.rel.tdata
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+
+.rela.tdata
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+
+.rel.tbss
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+
+.rela.tbss
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got       0x00001e90      0x1bc
+ *(.rela.got)
+ .rela.got      0x00001e90      0x1bc C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rel.bss
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+
+.rela.bss
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt       0x0000204c        0x0
+ *(.rela.plt)
+ .rela.plt      0x0000204c        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.got            0x0000204c        0x4
+ *(.got)
+ .got           0x0000204c        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.got.loc        0x00002050       0x48
+ *(.got.loc)
+ .got.loc       0x00002050       0x48 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.clib.rodata
+ *(.clib.rodata)
+
+.rtos.rodata
+ *(.rtos.rodata)
+
+.clib.data
+ *(.clib.data)
+
+.rtos.data
+ *(.rtos.data)
+
+.clib.percpu.data
+ *(.clib.percpu.data)
+
+.rtos.percpu.data
+ *(.rtos.percpu.data)
+
+.rodata
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+
+.interp         0x00002098        0xb
+ .interp        0x00002098        0xb C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+
+.rodata1
+ *(.rodata1)
+
+.xt_except_table
+ *(.xt_except_table)
+
+.eh_frame       0x000020a4        0x4
+ *(.eh_frame)
+ .eh_frame      0x000020a4        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .eh_frame      0x000020a4        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.eh_frame
+ *(.eh_frame)
+
+.gcc_except_table
+ *(.gcc_except_table)
+ *(.gcc_except_table.*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+                0x000020a8                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+
+.preinit_array
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+                [!provide]                        PROVIDE (__init_array_start = .)
+
+.init_array
+ *(.init_array)
+                [!provide]                        PROVIDE (__init_array_end = .)
+                [!provide]                        PROVIDE (__fini_array_start = .)
+
+.fini_array
+ *(.fini_array)
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors          0x000020a8        0x8
+ *crtbegin*.o(.ctors)
+ .ctors         0x000020a8        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+ .ctors         0x000020ac        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.dtors          0x000020b0        0x8
+ *crtbegin*.o(.dtors)
+ .dtors         0x000020b0        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ *(EXCLUDE_FILE(*crtend*.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+ .dtors         0x000020b4        0x4 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro
+ *(.data.rel.ro.local)
+ *(.data.rel.ro*)
+
+.data           0x000020c0       0xa3
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x000020c0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .data          0x000020c0       0x24 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                0x000020c0                __dso_handle
+ *fill*         0x000020e4        0xc 
+ .data          0x000020f0       0x73 Build/source/piclib_fft2p5ms.picsl.o
+                0x000020f0                export_parameter_array
+ .data          0x00002163        0x0 Build/source/lc3_scratch_allocator.picsl.o
+ .data          0x00002163        0x0 Build/source/IRAM_fft_com.picsl.o
+ .data          0x00002163        0x0 Build/source/IRAM_fft_fft4.picsl.o
+ .data          0x00002163        0x0 Build/source/IRAM_fft_fft15.picsl.o
+ .data          0x00002163        0x0 Build/source/IRAM_fft_fft20.picsl.o
+ .data          0x00002163        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .data          0x00002163        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.gnu.linkonce.d.*personality*)
+
+.data1
+ *(.data1)
+
+.xt_except_desc
+ *(.xt_except_desc .gnu.linkonce.h.*)
+ *(.xt_except_desc_end)
+                0x00002163                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x00002163                __bss_start = .
+
+.bss            0x00002164      0x2c0
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00002164        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .bss           0x00002164        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .bss           0x00002164      0x2c0 Build/source/piclib_fft2p5ms.picsl.o
+                0x00002164                printf_ptr
+                0x00002168                LC3Plus_LowDelayShapes_n960_len
+                0x0000216c                LC3Plus_LowDelayShapes_n960_la_zeroes
+                0x00002170                LC3Plus_LowDelayShapes_n960
+                0x00002174                LC3Plus_LowDelayShapes_n960_len_5ms
+                0x00002178                LC3Plus_LowDelayShapes_n960_la_zeroes_5ms
+                0x0000217c                LC3Plus_LowDelayShapes_n960_5ms
+                0x00002180                LC3Plus_LowDelayShapes_n960_len_2_5ms
+                0x00002184                LC3Plus_LowDelayShapes_n960_la_zeroes_2_5ms
+                0x00002188                LC3Plus_LowDelayShapes_n960_2_5ms
+                0x0000218c                LC3Plus_LowDelayShapes_n960_HRA_2_5ms
+                0x00002190                LC3Plus_LowDelayShapes_n960_HRA_5ms
+                0x00002194                LC3Plus_LowDelayShapes_n960_HRA
+                0x00002198                LC3Plus_NN_thresh
+                0x0000219a                LC3Plus_NN_thresh_exp
+                0x0000219c                LC3Plus_BW_thresh_quiet
+                0x000021a0                LC3Plus_BW_thresh_quiet_exp
+                0x000021a4                LC3Plus_BW_thresh_brickwall
+                0x000021a8                LC3Plus_BW_brickwall_dist
+                0x000021ac                LC3Plus_BW_warp_idx_start_all
+                0x000021b0                LC3Plus_BW_warp_idx_stop_all
+                0x000021b4                LC3Plus_BW_brickwall_dist_5ms
+                0x000021b8                LC3Plus_BW_warp_idx_start_all_5ms
+                0x000021bc                LC3Plus_BW_warp_idx_stop_all_5ms
+                0x000021c0                LC3Plus_BW_warp_idx_start_all_2_5ms
+                0x000021c4                LC3Plus_BW_warp_idx_stop_all_2_5ms
+                0x000021c8                LC3Plus_BW_cutoff_bin_all
+                0x000021cc                LC3Plus_BW_cutoff_bin_all_HR
+                0x000021d0                LC3Plus_BW_cutoff_bits_all
+                0x000021d4                LC3Plus_tns_subdiv_startfreq
+                0x000021d8                LC3Plus_tns_subdiv_stopfreq
+                0x000021dc                LC3Plus_tns_subdiv_startfreq_48k_HR
+                0x000021e0                LC3Plus_tns_subdiv_stopfreq_48k_HR
+                0x000021e4                LC3Plus_tns_subdiv_startfreq_96k_HR
+                0x000021e8                LC3Plus_tns_subdiv_stopfreq_96k_HR
+                0x000021ec                LC3Plus_tns_subdiv_startfreq_HR
+                0x000021f0                LC3Plus_tns_subdiv_stopfreq_HR
+                0x000021f4                LC3Plus_tns_subdiv_startfreq_5ms_HR
+                0x000021f8                LC3Plus_tns_subdiv_stopfreq_5ms_HR
+                0x000021fc                LC3Plus_tns_subdiv_startfreq_5ms
+                0x00002200                LC3Plus_tns_subdiv_stopfreq_5ms
+                0x00002204                LC3Plus_tns_subdiv_startfreq_2_5ms_HR
+                0x00002208                LC3Plus_tns_subdiv_stopfreq_2_5ms_HR
+                0x0000220c                LC3Plus_tns_subdiv_startfreq_2_5ms
+                0x00002210                LC3Plus_tns_subdiv_stopfreq_2_5ms
+                0x00002214                LC3Plus_tnsAcfWindow
+                0x00002218                LC3Plus_tnsQuantThr
+                0x0000221c                LC3Plus_ac_tns_order_bits
+                0x00002220                LC3Plus_ac_tns_coef_bits
+                0x00002224                LC3Plus_tnsQuantPts
+                0x00002228                LC3Plus_ac_tns_order_freq
+                0x0000222c                LC3Plus_ac_tns_order_cumfreq
+                0x00002230                LC3Plus_ac_tns_coef_freq
+                0x00002234                LC3Plus_ac_tns_coef_cumfreq
+                0x00002238                LC3Plus_Tab_esc_nb
+                0x0000223c                LC3Plus_ari_spec_lookup
+                0x00002240                LC3Plus_ari_spec_cumfreq
+                0x00002244                LC3Plus_ari_spec_freq
+                0x00002248                LC3Plus_ari_spec_bits
+                0x0000224c                LC3Plus_lpc_pre_emphasis
+                0x00002250                LC3Plus_lpc_pre_emphasis_e
+                0x00002254                LC3Plus_lpc_lin_pre_emphasis
+                0x00002258                LC3Plus_lpc_lin_pre_emphasis_e
+                0x0000225c                LC3Plus_lpc_lin_pre_emphasis_5ms
+                0x00002260                LC3Plus_lpc_lin_pre_emphasis_e_5ms
+                0x00002264                LC3Plus_lpc_lin_pre_emphasis_2_5ms
+                0x00002268                LC3Plus_lpc_lin_pre_emphasis_e_2_5ms
+                0x0000226c                LC3Plus_lpc_warp_dee_emphasis
+                0x00002270                LC3Plus_lpc_warp_dee_emphasis_e
+                0x00002274                LC3Plus_bands_nrg_scale
+                0x00002278                LC3Plus_bands_offset
+                0x0000227c                LC3Plus_bands_offset_5ms
+                0x00002280                LC3Plus_bands_offset_2_5ms
+                0x00002284                LC3Plus_bands_number_5ms
+                0x00002288                LC3Plus_bands_number_2_5ms_HR
+                0x0000228c                LC3Plus_bands_number_2_5ms
+                0x00002290                LC3Plus_bands_offset_with_one_max
+                0x00002294                LC3Plus_bands_offset_with_two_max
+                0x00002298                LC3Plus_bands_offset_with_one_max_5ms
+                0x0000229c                LC3Plus_bands_offset_with_two_max_5ms
+                0x000022a0                LC3Plus_bands_offset_with_one_max_2_5ms
+                0x000022a4                LC3Plus_bands_offset_with_two_max_2_5ms
+                0x000022a8                LC3Plus_bands_offset_HR
+                0x000022ac                LC3Plus_bands_offset_5ms_HR
+                0x000022b0                LC3Plus_bands_offset_2_5ms_HR
+                0x000022b4                LC3Plus_bands_offset_lin
+                0x000022b8                LC3Plus_bands_offset_lin_5ms
+                0x000022bc                LC3Plus_bands_offset_lin_2_5ms
+                0x000022c0                LC3Plus_bands_offset_with_one_max_lin
+                0x000022c4                LC3Plus_bands_offset_with_two_max_lin
+                0x000022c8                LC3Plus_bands_offset_with_one_max_lin_5ms
+                0x000022cc                LC3Plus_bands_offset_with_two_max_lin_5ms
+                0x000022d0                LC3Plus_bands_offset_with_one_max_lin_2_5ms
+                0x000022d4                LC3Plus_bands_offset_with_two_max_lin_2_5ms
+                0x000022d8                LC3Plus_inv_odft_twiddle_80_re
+                0x000022dc                LC3Plus_inv_odft_twiddle_80_im
+                0x000022e0                LC3Plus_inv_odft_twiddle_60_re
+                0x000022e4                LC3Plus_inv_odft_twiddle_60_im
+                0x000022e8                LC3Plus_inv_odft_twiddle_40_re
+                0x000022ec                LC3Plus_inv_odft_twiddle_40_im
+                0x000022f0                LC3Plus_inv_odft_twiddle_20_re
+                0x000022f4                LC3Plus_inv_odft_twiddle_20_im
+                0x000022f8                LC3Plus_resamp_filts
+                0x000022fc                LC3Plus_resamp_params
+                0x00002300                LC3Plus_highpass50_filt_num
+                0x00002304                LC3Plus_highpass50_filt_den
+                0x00002308                LC3Plus_olpa_ac_weighting
+                0x0000230c                LC3Plus_ltpf_ac_interp_filt
+                0x00002310                LC3Plus_inter_filter
+                0x00002314                LC3Plus_inter_filter_shift
+                0x00002318                LC3Plus_inter_filter_len
+                0x0000231c                LC3Plus_tilt_filter
+                0x00002320                LC3Plus_tilt_filter_len
+                0x00002324                LC3Plus_gain_scale_fac
+                0x00002328                LC3Plus_pitch_scale
+                0x0000232c                LC3Plus_ltpf_overlap_len
+                0x00002330                LC3Plus_plc_preemph_fac
+                0x00002334                LC3Plus_TDC_high_16_fx
+                0x00002338                LC3Plus_TDC_high_32_fx
+                0x0000233c                LC3Plus_TDC_high_16_harm_fx
+                0x00002340                LC3Plus_TDC_high_32_harm_fx
+                0x00002344                LC3Plus_lag_win
+                0x00002348                LC3Plus_rectLengthTab
+                0x0000234c                LC3Plus_sns_gaintabPtr
+                0x00002350                LC3Plus_sns_gainSz
+                0x00002354                LC3Plus_sns_gainMSBbits
+                0x00002358                LC3Plus_sns_Kval
+                0x0000235c                LC3Plus_sns_MPVQ_Sz
+                0x00002360                LC3Plus_st1SCF0_7_base5_32x8_Q27
+                0x00002364                LC3Plus_st1SCF8_15_base5_32x8_Q27
+                0x00002368                LC3Plus_sns_gainLSBbits
+                0x0000236c                LC3Plus_MPVQ_offs_ptr
+                0x00002370                LC3Plus_tabledKMAX
+                0x00002374                LC3Plus_isqrt_Q16tab
+                0x00002378                LC3Plus_isqrt_Q31tab
+                0x0000237c                LC3Plus_adjust_global_gain_tables
+                0x00002380                LC3Plus_BitReverseTable256
+                0x00002384                LC3Plus_Tab_T
+                0x00002388                LC3Plus_Bit_Shft
+                0x0000238c                LC3Plus_AB_Shft
+                0x00002390                LC3Plus_Tab_esc_Dec
+                0x00002394                LC3Plus_ldCoeff
+                0x00002398                LC3Plus_ldCoeff_Hifi5
+                0x0000239c                LC3Plus_exp2_tab_long
+                0x000023a0                LC3Plus_exp2w_tab_long
+                0x000023a4                LC3Plus_exp2x_tab_long
+                0x000023a8                LC3Plus_SqrtTable
+                0x000023ac                LC3Plus_SqrtDiffTable
+                0x000023b0                LC3Plus_ISqrtTable
+                0x000023b4                LC3Plus_ISqrtDiffTable
+                0x000023b8                LC3Plus_InvTable
+                0x000023bc                LC3Plus_InvIntTable
+                0x000023c0                LC3Plus_InvDiffTable
+                0x000023c4                LC3Plus_SineTable480
+                0x000023c8                LC3Plus_SineTable320
+                0x000023cc                LC3Plus_SineTable960
+                0x000023d0                SineWindow40
+                0x000023d4                LC3Plus_SineWindow60
+                0x000023d8                LC3Plus_SineWindow80
+                0x000023dc                LC3Plus_SineWindow120
+                0x000023e0                LC3Plus_SineWindow160
+                0x000023e4                LC3Plus_SineWindow240
+                0x000023e8                LC3Plus_SineWindow320
+                0x000023ec                LC3Plus_SineWindow480
+                0x000023f0                LC3Plus_SineWindow960
+                0x000023f4                LC3Plus_RealFFT80_twid
+                0x000023f8                LC3Plus_RotVector_40_32
+                0x000023fc                LC3Plus_RotVector_480
+                0x00002400                LC3Plus_RotVector_30_16
+                0x00002404                LC3Plus_RotVector_320
+                0x00002408                LC3Plus_RotVector_32_8
+                0x0000240c                LC3Plus_isqrt_table
+                0x00002410                LC3Plus_Log2_16_table1
+                0x00002414                LC3Plus_Log2_16_table2
+                0x00002418                LC3Plus_InvLog2_16_table1
+                0x0000241c                LC3Plus_InvLog2_16_table2
+                0x00002420                LC3Plus_invSqrtTab
+ .bss           0x00002424        0x0 Build/source/lc3_scratch_allocator.picsl.o
+ .bss           0x00002424        0x0 Build/source/IRAM_fft_com.picsl.o
+ .bss           0x00002424        0x0 Build/source/IRAM_fft_fft4.picsl.o
+ .bss           0x00002424        0x0 Build/source/IRAM_fft_fft15.picsl.o
+ .bss           0x00002424        0x0 Build/source/IRAM_fft_fft20.picsl.o
+ .bss           0x00002424        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .bss           0x00002424        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+ *(.clib.bss)
+ *(.clib.percpu.bss)
+ *(.rtos.bss)
+ *(.rtos.percpu.bss)
+ *(COMMON)
+                0x00002424                . = ALIGN (0x4)
+                0x00002424                . = ALIGN (0x4)
+                0x00002424                _end = .
+                [!provide]                        PROVIDE (end = .)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x5f
+ *(.comment)
+ .comment       0x00000000       0x28 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+                                         0x29 (size before relaxing)
+ .comment       0x00000028       0x37 Build/source/piclib_fft2p5ms.picsl.o
+                                         0x38 (size before relaxing)
+ .comment       0x0000005f       0x38 Build/source/lc3_scratch_allocator.picsl.o
+ .comment       0x0000005f       0x38 Build/source/IRAM_fft_com.picsl.o
+ .comment       0x0000005f       0x38 Build/source/IRAM_fft_fft4.picsl.o
+ .comment       0x0000005f       0x38 Build/source/IRAM_fft_fft15.picsl.o
+ .comment       0x0000005f       0x38 Build/source/IRAM_fft_fft20.picsl.o
+ .comment       0x0000005f       0x29 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.xtensa.info    0x00000000      0x1f0
+ .xtensa.info   0x00000000      0x1f0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xtensa.info   0x000001f0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .xtensa.info   0x000001f0        0x0 Build/source/piclib_fft2p5ms.picsl.o
+ .xtensa.info   0x000001f0        0x0 Build/source/lc3_scratch_allocator.picsl.o
+ .xtensa.info   0x000001f0        0x0 Build/source/IRAM_fft_com.picsl.o
+ .xtensa.info   0x000001f0        0x0 Build/source/IRAM_fft_fft4.picsl.o
+ .xtensa.info   0x000001f0        0x0 Build/source/IRAM_fft_fft15.picsl.o
+ .xtensa.info   0x000001f0        0x0 Build/source/IRAM_fft_fft20.picsl.o
+ .xtensa.info   0x000001f0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .xtensa.info   0x000001f0        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000     0x7023
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0xe56 Build/source/piclib_fft2p5ms.picsl.o
+ .debug_info    0x00000e56      0x217 Build/source/lc3_scratch_allocator.picsl.o
+ .debug_info    0x0000106d     0x4efc Build/source/IRAM_fft_com.picsl.o
+ .debug_info    0x00005f69      0xb5d Build/source/IRAM_fft_fft4.picsl.o
+ .debug_info    0x00006ac6      0x1f1 Build/source/IRAM_fft_fft15.picsl.o
+ .debug_info    0x00006cb7      0x36c Build/source/IRAM_fft_fft20.picsl.o
+
+.debug_abbrev   0x00000000      0x6ab
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000       0xe0 Build/source/piclib_fft2p5ms.picsl.o
+ .debug_abbrev  0x000000e0       0xb5 Build/source/lc3_scratch_allocator.picsl.o
+ .debug_abbrev  0x00000195      0x261 Build/source/IRAM_fft_com.picsl.o
+ .debug_abbrev  0x000003f6      0x101 Build/source/IRAM_fft_fft4.picsl.o
+ .debug_abbrev  0x000004f7       0xe0 Build/source/IRAM_fft_fft15.picsl.o
+ .debug_abbrev  0x000005d7       0xd4 Build/source/IRAM_fft_fft20.picsl.o
+
+.debug_line     0x00000000     0x3598
+ *(.debug_line)
+ .debug_line    0x00000000       0xef Build/source/piclib_fft2p5ms.picsl.o
+ .debug_line    0x000000ef      0x373 Build/source/lc3_scratch_allocator.picsl.o
+ .debug_line    0x00000462     0x1f6c Build/source/IRAM_fft_com.picsl.o
+ .debug_line    0x000023ce      0x486 Build/source/IRAM_fft_fft4.picsl.o
+ .debug_line    0x00002854      0x44e Build/source/IRAM_fft_fft15.picsl.o
+ .debug_line    0x00002ca2      0x8f6 Build/source/IRAM_fft_fft20.picsl.o
+
+.debug_frame    0x00000000      0x168
+ *(.debug_frame)
+ .debug_frame   0x00000000       0x28 Build/source/piclib_fft2p5ms.picsl.o
+ .debug_frame   0x00000028       0x50 Build/source/lc3_scratch_allocator.picsl.o
+ .debug_frame   0x00000078       0x78 Build/source/IRAM_fft_com.picsl.o
+ .debug_frame   0x000000f0       0x28 Build/source/IRAM_fft_fft4.picsl.o
+ .debug_frame   0x00000118       0x28 Build/source/IRAM_fft_fft15.picsl.o
+ .debug_frame   0x00000140       0x28 Build/source/IRAM_fft_fft20.picsl.o
+
+.debug_str      0x00000000     0x2cb0
+ *(.debug_str)
+ .debug_str     0x00000000     0x1409 Build/source/piclib_fft2p5ms.picsl.o
+                                       0x1438 (size before relaxing)
+ .debug_str     0x00001409      0x1ae Build/source/lc3_scratch_allocator.picsl.o
+                                        0x253 (size before relaxing)
+ .debug_str     0x000015b7     0x15bc Build/source/IRAM_fft_com.picsl.o
+                                       0x2ac2 (size before relaxing)
+ .debug_str     0x00002b73       0x2e Build/source/IRAM_fft_fft4.picsl.o
+                                        0x147 (size before relaxing)
+ .debug_str     0x00002ba1       0x72 Build/source/IRAM_fft_fft15.picsl.o
+                                        0x188 (size before relaxing)
+ .debug_str     0x00002c13       0x9d Build/source/IRAM_fft_fft20.picsl.o
+                                        0x215 (size before relaxing)
+
+.debug_loc      0x00000000     0x58e5
+ *(.debug_loc)
+ .debug_loc     0x00000000       0x13 Build/source/piclib_fft2p5ms.picsl.o
+ .debug_loc     0x00000013      0x178 Build/source/lc3_scratch_allocator.picsl.o
+ .debug_loc     0x0000018b     0x4291 Build/source/IRAM_fft_com.picsl.o
+ .debug_loc     0x0000441c      0xe01 Build/source/IRAM_fft_fft4.picsl.o
+ .debug_loc     0x0000521d      0x22a Build/source/IRAM_fft_fft15.picsl.o
+ .debug_loc     0x00005447      0x49e Build/source/IRAM_fft_fft20.picsl.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.xt.lit         0x00000000       0x48
+ *(.xt.lit .xt.lit.* .gnu.linkonce.p.*)
+ .xt.lit.plt    0x00000000        0x0 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xt.lit        0x00000000       0x18 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .xt.lit        0x00000018        0x8 Build/source/piclib_fft2p5ms.picsl.o
+ .xt.lit        0x00000020        0x8 Build/source/IRAM_fft_com.picsl.o
+ .xt.lit        0x00000028        0x8 Build/source/IRAM_fft_fft4.picsl.o
+ .xt.lit        0x00000030        0x8 Build/source/IRAM_fft_fft15.picsl.o
+ .xt.lit        0x00000038        0x0 Build/source/IRAM_fft_fft20.picsl.o
+                                          0x8 (size before relaxing)
+ .xt.lit        0x00000038       0x10 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+
+.xt.insn
+ *(.xt.insn .gnu.linkonce.x.*)
+
+.xt.prop        0x00000000      0x444
+ *(.xt.prop .gnu.linkonce.prop.*)
+ .xt.prop       0x00000000       0x30 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crti.o
+ .xt.prop       0x00000030       0xd8 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtbegin.o
+ .xt.prop       0x00000108       0x30 Build/source/piclib_fft2p5ms.picsl.o
+ .xt.prop       0x00000138       0x90 Build/source/lc3_scratch_allocator.picsl.o
+ .xt.prop       0x000001c8      0x138 Build/source/IRAM_fft_com.picsl.o
+ .xt.prop       0x00000300       0x60 Build/source/IRAM_fft_fft4.picsl.o
+ .xt.prop       0x00000360       0x30 Build/source/IRAM_fft_fft15.picsl.o
+ .xt.prop       0x00000390       0x24 Build/source/IRAM_fft_fft20.picsl.o
+                                         0x30 (size before relaxing)
+ .xt.prop       0x000003b4       0x60 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtend.o
+ .xt.prop       0x00000414       0x30 C:/usr/xtensa/XtDevTools/install/builds/RI-2021.8-win32/AB1568_i64B_d32B_512K/xtensa-elf/lib/xcc/crtn.o
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(Build/fft2p5ms/pisplit_lc3plusi_fft2p5ms_position_independent.splitload.lib elf32-xtensa-le)
+
+.debug_ranges   0x00000000     0x1128
+ .debug_ranges  0x00000000      0xc70 Build/source/IRAM_fft_com.picsl.o
+ .debug_ranges  0x00000c70      0x4b8 Build/source/IRAM_fft_fft4.picsl.o
+
+Memory Configuration
+
+Name             Origin          Length          Used            Unused          Attributes
+*default*        0x00000000      0xffffffff      

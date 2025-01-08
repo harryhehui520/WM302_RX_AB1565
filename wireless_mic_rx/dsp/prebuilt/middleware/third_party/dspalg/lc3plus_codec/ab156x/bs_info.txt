@@ -1,0 +1,8 @@
+Software name:                           LC3plus Library
+Brief:                                   The LC3plus Library is used by ULL2.0 and wireless Mic
+Path:                                    dsp/prebuilt/middleware/third_party/dspalg/lc3plus_codec
+Category:                                Business software(BS)
+BS company:                              Fraunhofer
+Version:                                 V1.6.5EC, October 21 2021
+License:                                 Fraunhofer license
+Necessity of license agreement:          required, please get the license agreement from Fraunhofer.
